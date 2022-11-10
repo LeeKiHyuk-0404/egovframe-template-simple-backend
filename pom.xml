@@ -75,6 +75,10 @@
 			<artifactId>org.egovframe.rte.ptl.mvc</artifactId>
 			<version>${org.egovframe.rte.version}</version>
 			<exclusions>
+				<exclusion>
+		    			<artifactId>commons-logging</artifactId>
+		    			<groupId>commons-logging</groupId>
+		    		</exclusion>
 		    	
 		    	<!--
 				JBoss의 경우는 <body-context>부분을 empty로 수정하여 적용하시면 되며,
