@@ -24,6 +24,6 @@ public class EgovBootApplication extends SpringBootServletInitializer{
 	}
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-		return builder.sources(SpringBootSampleApplication.class);
+		return builder.sources(EgovBootApplication.class);
 	}
 }
