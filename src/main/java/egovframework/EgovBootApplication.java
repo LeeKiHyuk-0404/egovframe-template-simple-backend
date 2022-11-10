@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.context.annotation.Import;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import egovframework.com.config.EgovWebApplicationInitializer;
-
+import org.springframework.boot.builder.SpringApplicationBuilder;
 @ServletComponentScan
 @SpringBootApplication
 @Import({EgovWebApplicationInitializer.class})
