@@ -94,6 +94,11 @@
 		    </exclusions>
 		</dependency>
 		<dependency>
+			<groupId>egovframework.rte</groupId>
+			<artifactId>spring-modules-validation</artifactId>
+			<version>0.9</version>
+		</dependency>   
+		<dependency>
 			<groupId>org.egovframe.rte</groupId>
 			<artifactId>org.egovframe.rte.psl.dataaccess</artifactId>
 			<version>${org.egovframe.rte.version}</version>
